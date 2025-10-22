@@ -1,20 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About — André Herreira</title>
+  <title>Sobre — André Herreira</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header id="header">
     <div class="logo">André Herreira</div>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html">Início</a>
       <a href="about.html" class="active">Sobre</a>
       <a href="experience.html">Experiência</a>
       <a href="projects.html">Projetos</a>
       <a href="contact.html">Contato</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
     </nav>
   </header>
 
@@ -22,41 +35,56 @@
     <div class="container">
       <div class="section-header">
         <h1 class="section-title">Sobre Mim</h1>
-        <p class="section-subtitle">Apaixonado por criar soluções inovadoras e entregar resultados excepcionais por meio de tecnologia e design</p>
+        <p class="section-subtitle">Apaixonado por criar soluções inovadoras e entregar resultados excepcionais através de tecnologia e design</p>
       </div>
 
       <div class="grid grid-2 mb-lg">
         <div class="card">
-          <h3 class="card-title">Contexto</h3>
+          <h3 class="card-title">Trajetória</h3>
           <div class="card-body">
-            <p>Mesmo ainda jovem, trago uma visão extraordinária para cada projeto. A cada dia, busco me especializar mais na tecnologia e suas diversas áreas. Ainda novo, essa paixão nasceu em mim e me acompanha, mesmo em terrenos complicados</p>
-            <p>Sou um grande amante de matemática e suas tecnologias, como a ánalise de dados, áreas de desenvolvimento de jogos e especialmente a programação. Minha curiosidade de como todo esse processamento funciona é o que me levou e me motiva a seguir nesse caminho.</p>
+            <p>Com uma sólida base em desenvolvimento e design, trago uma perspectiva única para cada projeto. Minha jornada na tecnologia começou com uma curiosidade sobre como as coisas funcionam, que evoluiu para uma paixão por criar experiências digitais significativas.</p>
+            <p>Sou especializado em construir aplicações escaláveis, criar interfaces de usuário intuitivas e resolver problemas complexos com soluções elegantes. Minha abordagem combina expertise técnica com pensamento criativo para entregar produtos que não apenas funcionam perfeitamente, mas também encantam os usuários.</p>
           </div>
         </div>
 
         <div class="card">
           <h3 class="card-title">Filosofia</h3>
           <div class="card-body">
-            <p>Eu acredito no aprendizado contínuo. Toda oportunidade de um aprendizado de qualidade, não somente na programação, mas em quaisquer áreas, devem ser aproveitadas e estudadas com dedicação.</p>
-            <p>Além disso, acredito que a colaboração é a chave para o sucesso. Muitas vezes as melhores ideias germinam quando estamos sozinhos, mas é em grupo que essas ideias florescem de verdade. Como se diz: "Se quiser rápido, vá sozinho. Se quiser ir longe, vá em grupo."</p>
+            <p>Acredito no aprendizado contínuo e em estar na vanguarda da tecnologia. Cada projeto é uma oportunidade para expandir limites, experimentar novas abordagens e refinar meu ofício.</p>
+            <p>Colaboração é fundamental para o meu processo. Prospero em ambientes onde ideias são compartilhadas livremente, feedback é bem-vindo e equipes trabalham juntas em direção a uma visão comum. As melhores soluções emergem quando perspectivas diversas se unem.</p>
           </div>
         </div>
       </div>
 
       <div class="section-header mt-lg">
-        <h2 class="section-title">Habilidades & Especialidades</h2>
+        <h2 class="section-title">Habilidades & Expertise</h2>
       </div>
 
       <div class="grid grid-3">
         <div class="card">
-          <h4 class="card-title">Frontend Development</h4>
+          <h4 class="card-title">Desenvolvimento Frontend</h4>
           <div class="card-body">
-            <p class="mb-sm">Designs responsivos e aplicações web com frameworks modernos.</p>
+            <p class="mb-sm">Construindo aplicações web responsivas e performáticas com frameworks modernos e melhores práticas.</p>
             <div class="badge-group">
-              <span class="badge">JavaScript</span>
+              <span class="badge">React</span>
+              <span class="badge">Vue.js</span>
               <span class="badge">TypeScript</span>
               <span class="badge">HTML/CSS</span>
-              <span class="badge">Tailwind CSS</span>
+              <span class="badge">Tailwind</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4 class="card-title">Desenvolvimento Backend</h4>
+          <div class="card-body">
+            <p class="mb-sm">Projetando arquiteturas server-side robustas e APIs que escalam.</p>
+            <div class="badge-group">
+              <span class="badge">Node.js</span>
+              <span class="badge">Python</span>
+              <span class="badge">PostgreSQL</span>
+              <span class="badge">MongoDB</span>
+              <span class="badge">REST APIs</span>
             </div>
           </div>
         </div>
@@ -64,7 +92,7 @@
         <div class="card">
           <h4 class="card-title">Design & Ferramentas</h4>
           <div class="card-body">
-            <p class="mb-sm">Criando designs bonitos e centrados no usuário com uso deferramentas de desenvolvimento modernas.</p>
+            <p class="mb-sm">Criando designs bonitos e centrados no usuário, aproveitando ferramentas modernas de desenvolvimento.</p>
             <div class="badge-group">
               <span class="badge">Figma</span>
               <span class="badge">UI/UX</span>
@@ -82,8 +110,8 @@
 
       <div class="card">
         <div class="card-body">
-          <p>Além de código e design, sou apaixonado por tecnologias emergentes como inteligência artificial e o cenário em evolução do desenvolvimento web. Gosto de aprender e utilizar sempre da melhor da forma as novas tecnologias, participar de cursos de tecnologia e me manter informado na comunidade dos desenvolvedores.</p>
-          <p>Fora do momento de serviço, pode me encontrar resolvendo problemas matemáticos, buscando um novo conhecimento ou participando de atividades recreativas com meus amigos.</p>
+          <p>Além de código e design, sou apaixonado por tecnologias emergentes como inteligência artificial, blockchain e o cenário em evolução do desenvolvimento web. Gosto de contribuir para projetos open-source, participar de conferências de tecnologia e me manter engajado com a comunidade de desenvolvedores.</p>
+          <p>Quando não estou trabalhando, você me encontrará explorando novos lugares, experimentando fotografia ou mergulhando em um bom livro sobre filosofia, ciência ou tecnologia.</p>
         </div>
       </div>
     </div>
@@ -91,7 +119,7 @@
 
   <footer>
     <div class="footer-content">
-      <p class="footer-text">© 2025 André Herreira. All rights reserved.</p>
+      <p class="footer-text">© 2025 André Herreira. Todos os direitos reservados.</p>
       <div class="footer-links">
         <a href="https://github.com" target="_blank">GitHub</a>
         <a href="https://linkedin.com" target="_blank">LinkedIn</a>
@@ -101,6 +129,22 @@
   </footer>
 
   <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    html.setAttribute('data-theme', currentTheme);
+    
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+
+    // Header scroll effect
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
       if (window.scrollY > 20) {
